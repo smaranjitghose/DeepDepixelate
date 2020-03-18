@@ -27,6 +27,9 @@ The loss function for the generator composes of the content loss (reconstruction
 - Now Run the script as ```python pysrgan.py```
 
 ## To test : 
+#### 1. on your trained checkpoint model
+- Run the script ```python test_on_image.py --image_path [PATH FOR YOUR IMAGE] --checkpoint_model [PATH FOR YOUR CHK MODEL] ```
+#### 2. on pretrained checkpoint models
 - Run the script ```python test_on_image.py --image_path [PATH FOR YOUR IMAGE] --checkpoint_model pretrained_models/RRDB_ESRGAN_x4.pth ```
 
 
