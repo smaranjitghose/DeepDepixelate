@@ -8,6 +8,13 @@ This is the essence of Super Resolution, unlocking information on the sub pixel 
 
 To achieve this we implement [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://arxiv.org/abs/1609.04802)
 
+Generative adversarial networks (GANs) provide a powerful framework for generating plausible-looking natural images with high perceptual quality. The GAN procedure encourages the reconstructions to move towards regions of the search space with high probability of containing photo-realistic images and thus closer to the natural image manifold.
+
+SRGAN is a GAN based network, where the generator (G) learns to generates SR images from LR images as close as possible to HR. The discriminator (D) learns to distinguish generated SR images from real images. The G takes advantage of ResNet and sub-pixel convolution for upsampling. It also combines perceptual loss with generative or adversarial loss for the computation of its loss.
+
+![SRGAN Architecture]()
+![SRGAN Perceptual Loss Function]()
+
 # Usage:🐱‍💻
 - Download the [Celeba Dataset](https://www.dropbox.com/sh/8oqt9vytwxb3s4r/AADIKlz8PR9zr6Y20qbkunrba/Img/img_align_celeba.zip?dl=0)
 (if not available there see if options are listed at http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
