@@ -19,11 +19,15 @@ The loss function for the generator composes of the content loss (reconstruction
 ![SRGAN Perceptual Loss Function](https://github.com/smaranjitghose/DeepDepixelate/blob/master/assets/srgan_perceptual_loss.png)
 
 # Usage:🐱‍💻
+## To train : 
 - Download the [Celeba Dataset](https://www.dropbox.com/sh/8oqt9vytwxb3s4r/AADIKlz8PR9zr6Y20qbkunrba/Img/img_align_celeba.zip?dl=0)
 (if not available there see if options are listed at http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 - Clone this repo
 - Open the Terminal and then ```cd DeepDepixelate```
 - Now Run the script as ```python pysrgan.py```
+
+## To test : 
+- Run the script ```python test.py --image_path [PATH FOR YOUR IMAGE] --checkpoint_model [PATH FOR CHECKPOINT MODEL]
 
 
 
