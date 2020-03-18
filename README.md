@@ -27,7 +27,7 @@ The loss function for the generator composes of the content loss (reconstruction
 - Now Run the script as ```python pysrgan.py```
 
 ## To test : 
-- Run the script ```python test.py --image_path [PATH FOR YOUR IMAGE] --checkpoint_model [PATH FOR CHECKPOINT MODEL]
+- Run the script ```python test.py --image_path [PATH FOR YOUR IMAGE] --checkpoint_model [PATH FOR CHECKPOINT MODEL] ```
 
 
 
